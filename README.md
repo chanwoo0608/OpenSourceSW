@@ -4,7 +4,7 @@
 
 # 개발 환경에서 실행 하는법
 
-1. node.js 설차
+1. node.js 설치
 2. repository 다운로드 (git clone 하거나 직접 다운로드)
 3. 터미널에서 npm run dev
 
