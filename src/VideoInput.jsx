@@ -188,7 +188,7 @@ const VideoInput = ({ onVideoSubmit, children }) => {
             setError(error.message || 'An error occurred while processing the video.');
           });
       } else {
-        setError("Invalid YouTube URL. Please enter a valid video link.");
+        setError("잘못된 YouTube URL입니다. 올바른 동영상 링크를 입력하세요.");
       }
     }, 500); // 500ms debounce
     return () => clearTimeout(debounceTimeout.current);
