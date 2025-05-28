@@ -220,7 +220,7 @@ const VideoComments = ({ videoId, setPriorityTimestamps, setRegularTimestamps, o
         <div className="comments-container">
           {priorityComments.length > 0 && (
             <>
-              <h3>Priority Highlights</h3>
+              <h3>우선순위 하이라이트</h3>
               <ul>
                 {priorityComments.map(({ comment, time }, idx) => (
                   <li 
@@ -250,7 +250,7 @@ const VideoComments = ({ videoId, setPriorityTimestamps, setRegularTimestamps, o
 
           {otherComments.length > 0 && (
             <>
-              <h3>Other Timestamps</h3>
+              <h3>기타 타임스탬프</h3>
               <ul>
                 {otherComments.map(({ comment, time }, idx) => (
                   <li 
